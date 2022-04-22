@@ -1,0 +1,29 @@
+header{
+    background-color: black;
+    display: flex;
+}
+
+nav{
+    color: #ffffff;
+    flex: 10;
+}
+
+.logo{
+    flex: 1;
+}
+
+.nav-link{
+    display: flex;
+}
+
+.nav-link li{
+    flex: 1;
+}
+
+/* .home + li{
+    background-color: cadetblue;
+} */
+
+.home ~ li{
+    background-color: chocolate;
+}

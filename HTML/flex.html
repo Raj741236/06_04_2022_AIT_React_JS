@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex properties in css</title>
+    <style>
+        body{
+            margin-left: 50px;
+            box-sizing: border-box;
+        }
+        .flex-parent{
+            
+            background-color: aqua;
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .flex-child{
+            width: 100px;
+            background-color: yellow;
+            padding: 30px;
+            margin: 30px;
+            
+        }
+        .flex-child1{
+            min-height: 100px;
+           
+          
+            
+        }
+        .flex-child2{
+            min-height: 150px;
+            
+        }
+        .flex-child3{
+            min-height: 200px;
+            
+        }
+        .background-div{
+            width: 100%;
+            height: 300px;
+            background-image: url("https://images.unsplash.com/photo-1650434044914-e5adcb42d16a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+            background-repeat: no-repeat;
+            background-size: 100% 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-parent">
+        <div class="flex-child flex-child1">Flex Child 1</div>
+        <div class="flex-child flex-child2">Flex Child 2</div>
+        <div class="flex-child flex-child3">Flex Child 3</div>
+        
+    </div>
+
+    <!--Background  properties
+       
+    -->
+<div class="background-div">Content</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    
+    <style>
+
+         .class-heading{
+             background-color: blue;
+         }
+         #id-heading{
+             background-color: green;
+         }
+        /* h1{
+             background-color: orange;
+         } */
+
+         /* *{
+             background-color: pink;
+             margin-left: 30px;
+         }
+
+         .class-heading,#id-heading,p{
+             background-color: red;
+         } */
+
+         .common{
+             background-color: green;
+         }
+
+    </style>
+    <link rel="stylesheet" href="../CSS/Introduction_to_css.css"/>
+</head>
+<body>
+    <!--
+      Simple Selectors
+
+      1. Class selector
+      2. Id selector
+      3. Tag selector
+      4. Universal selector
+      5. Grouping selector
+
+      Types of css
+
+      1. Inline css
+      2. Internal CSS
+      3. External CSS
+
+    -->
+
+    <h1 id="id-heading" class="class-heading">I am a class Selector</h1>
+    <h1 id="id-heading">I am a id selector</h1>
+    <h1 class="class-heading">I am Tag Selector</h1>
+    <p class="class-heading">I am group selector</p>
+    <h1 class="external">I am external css</h1>
+    <h1 class="common" >Which styling will prevail me?</h1>
+</body>
+</html>

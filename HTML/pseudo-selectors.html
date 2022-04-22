@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+        body{
+            margin-left: 50px;
+        }
+
+        .list li:nth-child(2){
+            color: green;
+        }
+        
+
+        a:hover{
+            color: cadetblue;
+            background-color: orange;
+            font-size: 30px;
+        }
+
+        input:focus{
+            width: 300px;
+            outline: 1px solid red;
+        }
+
+        /* p::first-letter{
+            font-size: 50px;
+            color: orange;
+        }
+
+        p::first-line{
+            color: green;
+        } */
+
+        p::selection{
+            background-color: yellow;
+            color: red;
+        }
+
+        
+        [type="text"]::placeholder
+        {
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>I am a heading tag</h1>
+    <ul class="list">
+        <li>Home</li>
+        <li >Services</li>
+        <li>Blog</li>
+        <li>contact</li>
+
+    </ul>
+
+    <a href="#" >Hover property</a>
+
+    <input type="text" placeholder="Enter the Name">
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nulla ullam sapiente vitae soluta alias error mollitia magnam, totam dicta maiores sint tenetur consectetur itaque ab corporis perferendis fugit officia.</p>
+</body>
+</html>

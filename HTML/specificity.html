@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity in css</title>
+    <style>
+        body{
+            margin-left: 50px;
+        }
+        /* [class]{
+            color: pink;
+        }*/
+        .heading-class1{
+         color: red;
+        } 
+        /* #heading-id{
+            color: green;
+        } */
+        /* h1{
+            color: yellow;
+        } */
+        .heading-class2{
+            color: violet;
+        }
+        .div-class h1{
+            color: turquoise!important;
+        }
+
+        #div-id h1{
+            color: tomato;
+        } 
+    </style>
+</head>
+<body>
+    <h1 id="heading-id" class="heading-class1 heading-class2 ">I am the heading Tag</h1>
+    <div id="div-id" class="div-class">
+        <h1>HI i am heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa blanditiis ex nesciunt. Aliquid aut eligendi, explicabo modi ea pariatur obcaecati!</p>
+    </div>
+</body>
+</html>
