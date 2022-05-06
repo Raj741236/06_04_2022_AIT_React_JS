@@ -77,8 +77,8 @@
 // console.log(students);
 
 //join method
-const students = ["ram","shyam","john","alex","rajesh"];
-console.log(students.join('/'));
+// const students = ["ram","shyam","john","alex","rajesh"];
+// console.log(students.join('/'));
 
 
 
